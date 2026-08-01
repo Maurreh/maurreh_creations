@@ -108,8 +108,15 @@ body {
 }
 
 .btn-secondary {
+    background: #8a6460;
     border: 2px solid #2c2118;
     color: #2c2118;
+    transition: all 0.5s ease;
+}
+
+.btn-secondary:hover {
+    background: #2c2118;
+    color: #f9f5f0;
 }
 
 /* Classes */
